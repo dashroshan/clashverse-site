@@ -131,6 +131,7 @@ body {
 .material-symbols-outlined {
     font-size: 10vmax !important;
     transform: translateY(10px);
+    display: none;
 }
 
 .stat-item {
