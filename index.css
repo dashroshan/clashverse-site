@@ -247,6 +247,11 @@ footer {
     padding: 2.5vmax 0;
 }
 
+#zqSite {
+    color: #249AE5;
+    text-decoration: none;
+}
+
 @media (orientation:portrait) {
     #top-section {
         padding: 5vmax 0;
