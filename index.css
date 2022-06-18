@@ -128,21 +128,8 @@ body {
     background-color: rgb(30, 30, 30);
 }
 
-.material-symbols-outlined {
-    font-size: 10vmax !important;
-    transform: translateY(10px);
-    display: none;
-}
-
 .stat-item {
     text-align: center;
-    transition: transform;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
-}
-
-.stat-item:hover {
-    transform: scale(1.05);
 }
 
 .featurel-section,
@@ -252,6 +239,18 @@ footer {
     text-decoration: none;
 }
 
+.stat-svg {
+    fill: white;
+    width: 10vmax;
+    transition: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.stat-svg:hover {
+    transform: scale(1.1);
+}
+
 @media (orientation:portrait) {
     #top-section {
         padding: 5vmax 0;
@@ -312,9 +311,8 @@ footer {
         margin: 5vmax;
     }
 
-    .material-symbols-outlined {
-        font-size: 20vmax !important;
-        transform: translateY(0px);
+    .stat-svg {
+        width: 20vmax;
     }
 
     .featurel-section,
