@@ -242,13 +242,14 @@ footer {
 .stat-svg {
     fill: white;
     width: 10vmax;
-    transition: transform;
+    transition: transform fill;
     transition-duration: 500ms;
     transition-timing-function: ease-in-out;
 }
 
 .stat-svg:hover {
     transform: scale(1.1);
+    fill: rgb(181, 98, 254)
 }
 
 @media (orientation:portrait) {
