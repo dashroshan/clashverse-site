@@ -222,7 +222,7 @@ body {
     text-align: start;
     overflow: hidden;
     transition: max-height 0.5s;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;
 }
 
 .faq-item:checked~p~.faq-text {
