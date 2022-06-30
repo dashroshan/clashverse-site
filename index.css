@@ -252,6 +252,12 @@ footer {
     fill: rgb(181, 98, 254)
 }
 
+.footer-icon {
+    fill: red;
+    width: 2.8vmax;
+    transform: translateY(0.7vmax);
+}
+
 @media (orientation:portrait) {
     #top-section {
         padding: 5vmax 0;
@@ -387,5 +393,10 @@ footer {
         line-height: 4vmax;
         text-align: center;
         padding: 6vmax 0;
+    }
+
+    .footer-icon {
+        width: 3.8vmax;
+        transform: translateY(0.85vmax);
     }
 }
